@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="../../assets/css/register.css" />
+  </head>
+  <body class="home_bg">
+    <div class="total_section">
+      <div class="two_buttons mt-5">
+        <div class="float-right">
+          <button
+            class="btn btn-primary mr-5"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            Create Employee
+          </button>
+          <button type="button" class="btn btn-primary" id="log_out">
+            Logout
+          </button>
+        </div>
+      </div>
+      <h4 class="text-center white_color d-inline-block">EMPLOYEE LIST</h4>
+      <table class="table mt-5">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Employee Location</th>
+            <th>Employee DOB</th>
+            <th>Father Name</th>
+            <th>Mother Name</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="mytablebdy"></tbody>
+      </table>
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content border-0">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"><b>Create Employee</b></h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <div class="modal-body pt-0">
+            <form action="#" class="modal-content border-0" name="myform">
+              <!-- <div class="form-group">
+                <label for="number">Employee ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  placeholder="Enter employee id"
+                  name="e_id"
+                />
+              </div> -->
+              <div class="form-group">
+                <label for="name">Employee Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Employee Name"
+                  name="e_name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="location">Employee Location</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="location"
+                  placeholder="Enter Employee location"
+                  name="e_location"
+                />
+              </div>
+              <div class="form-group">
+                <label for="dob">Employee DOB</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dob"
+                  placeholder="Enter Employee DOB"
+                  name="e_dob"
+                />
+              </div>
+              <div class="form-group">
+                <label for="fathername">Father's Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="f_name"
+                  placeholder="Enter Employee Fathername"
+                  name="e_fname"
+                />
+              </div>
+              <div class="form-group">
+                <label for="mothersname">Mother's Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="m_name"
+                  placeholder="Enter Employee Mother's Name"
+                  name="e_mname"
+                />
+              </div>
+            </form>
+          </div>
+
+          <div class="modal-footer border-0 pt-0">
+            <button
+              onclick="return validate()"
+              type="button"
+              class="btn btn-primary"
+              id="regform"
+              data-dismiss="modal"
+            >
+              Add Employee
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>

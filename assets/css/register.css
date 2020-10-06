@@ -1,0 +1,81 @@
+.reg_bg {
+  background-image: url("../images/register/index_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login_bg {
+  background-image: url("../images/register/login_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+.home_bg {
+  background-image: url("../images/register/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* .modal_form {
+  padding: 40px;
+} */
+
+.white_color {
+  color: #ffffff;
+}
+.blue_color {
+  color: dodgerblue;
+}
+
+.total_section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: unset;
+}
+.pointer {
+  cursor: pointer;
+}
+.pos_center {
+  width: 40%;
+  min-width: 360px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-group {
+  margin-bottom: 3px;
+}
+
+.ht_95 {
+  height: 95vh;
+}
+
+label {
+  font-weight: 500;
+}
+
+.add_btn {
+  text-align: right;
+}
+
+.add_btn button {
+  width: 180px;
+}

@@ -1,0 +1,646 @@
+.nav_bg {
+  background-color: #c2a07a;
+  padding: 15px 300px;
+}
+
+.logo_name {
+  font-weight: 500;
+  color: unset;
+}
+
+
+.details a {
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 8px;
+}
+
+.active {
+  opacity: 0.5;
+}
+
+.first_section_bg {
+  background-image: url("../../assets/images/camel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  position: relative;
+}
+
+.about_section_bg {
+  background-image: url("../../assets/images/about/camera.jpg");
+}
+
+.contact_bg {
+  height: 410px;
+  background-image: url("../../assets/images/contact/gate.jpg");
+}
+
+.service_bg_color {
+  height: 410px;
+  background-color: #fcf2dd;
+}
+
+.ht_bg {
+  height: 410px;
+}
+
+.service_bg {
+  height: 410px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/service/boat.jpg");
+}
+
+
+
+.happy_customers {
+  background-color: #f0efef;
+}
+
+.happy_txt_color {
+  color: #606061;
+  font-weight: 500;
+}
+
+.happy {
+  font-weight: unset;
+}
+
+.second_section_bg {
+  background-image: url("../../assets/images/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  position: relative;
+}
+
+.pos_rel {
+  position: relative;
+}
+
+.white_color {
+  color: #ffffff !important;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.pos_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.width_35 {
+  width: 35% !important;
+}
+
+.brown_color {
+  color: #bb9287 !important;
+}
+
+.line_one {
+  font-weight: 500;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ht_unset {
+  height: unset !important;
+}
+
+.line_two {
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+
+.fst_btn {
+  background-color: #ef6951;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 20px;
+}
+
+.exp_btn {
+  background-color: #f4e2c1;
+  color: unset;
+  padding: 10px 35px;
+  margin-top: 20px;
+}
+
+.snd_btn {
+  background-color: #ffba45;
+}
+
+.discover_btn {
+  background-color: #ce918a;
+}
+
+.travel_btn {
+  background-color: #c3a279;
+}
+
+.small_col1 {
+  background-color: #ef6951;
+  height: 250px;
+}
+
+.small_col2 {
+  background-color: #ffba45;
+}
+
+.box1 {
+  background-color: #ec6950;
+}
+
+.box2 {
+  background-color: #9084bf;
+}
+
+.box3 {
+  background-color: #fdbb44;
+}
+
+.box4 {
+  background-color: #c2a07c;
+}
+
+.box5 {
+  background-color: #c1827a;
+}
+
+.box6 {
+  background-color: #04bbda;
+}
+
+.p_15 {
+  padding: 15px;
+}
+
+.oldtown_btn {
+  background-color: #c1827a;
+}
+
+.oldtown {
+  padding: 0 35px;
+}
+
+.small_col3,
+.learn_btn {
+  background-color: #9a86ef;
+}
+
+.section_three {
+  background-color: #fcf9d4;
+  /* height: 550px; */
+}
+
+.section_four {
+  background-color: #f1e4cc;
+}
+
+.clmn_one {
+  padding-top: 40px 0 0 0;
+}
+
+.num_color {
+  color: #c1827a !important;
+}
+
+.peter_name {
+  font-size: 56px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a,
+ul li a:hover {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+
+.nature_img {
+  background-image: url("../../assets/images/nature.jpg");
+}
+
+.codeants_txt {
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+.code_txt {
+  font-size: 18px;
+  font-weight: 500;
+  color: #197dc0;
+}
+
+.code_para {
+  font-size: 14px;
+  color: #c3a279;
+  margin-top: 20px;
+}
+
+.message_txt {
+  color: #616161;
+}
+
+.links {
+  color: unset;
+  font-weight: 500;
+}
+
+.thank {
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.statue_img {
+  margin: 50px 0 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover,
+.nav-link:active {
+  opacity: 0.5;
+}
+
+.arrow_right {
+  font-size: 12px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+@media screen and (min-width: 320px) {
+  .nav_bg {
+    padding: 10px;
+  }
+
+  .explore_water_bg {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../../assets/images/explore/rail_staion.jpg");
+  }
+
+  .explore_bg {
+    height: 410px;
+    background-image: url("../../assets/images/explore/water.jpg");
+  }
+
+  .peter_name {
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .peter_para {
+    font-size: 16px;
+  }
+
+  .state {
+    font-weight: 500;
+    font-size: 14px;
+    color: #606060;
+  }
+
+  .about_txt {
+    width: 290px;
+  }
+
+  .para_about {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+
+
+  /* .height{
+    height: 400px !important;
+  } */
+  .p_top {
+    padding-top: 10px !important;
+  }
+
+  .col_img {
+    width: 100px;
+  }
+
+  .fs_46 {
+    font-size: 46px !important;
+  }
+
+  .fs_26 {
+    font-size: 26px !important;
+  }
+
+  .fs_20 {
+    font-size: 20px !important;
+  }
+
+  .fs_17 {
+    font-size: 16px !important;
+    line-height: 1.8;
+  }
+
+  .fs_16 {
+    font-size: 18px !important;
+  }
+
+  .w_30 {
+    width: 30px;
+  }
+
+  .pic2_colmn {
+    padding: 15px 0;
+  }
+
+  .temple_clmn {
+    padding-top: 15px;
+  }
+
+  .customer_imgs {
+    border-radius: 50%;
+  }
+
+  .cust_names {
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .tour {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .details {
+    padding: 60px 40px !important;
+  }
+
+  .state_names {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-left: 0;
+  }
+
+  .middle_clmn {
+    padding: 0 18px;
+  }
+
+  .see_btn {
+    background-color: unset;
+    border: 2px solid #c3a279;
+    color: #bb9287;
+    padding: 5px 25px;
+  }
+
+  .disc_btn {
+    padding: 10px 25px;
+  }
+
+  .footer_row {
+    height: 400px;
+    width: 90%;
+    margin: 0 auto !important;
+  }
+
+  .footer_colmn {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .destination_img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  ul li {
+    padding: 5px 0;
+  }
+
+  .row_container {
+    width: 90%;
+    margin: 0 auto !important;
+    border-bottom: 4px solid #c3a279;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .middle_clmn {
+    padding: 0 35px;
+  }
+
+  .state {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_bg {
+    padding: 15px 140px;
+  }
+
+  .explore_water_bg {
+    height: unset;
+  }
+
+  .row_container {
+    width: 80%;
+  }
+
+  .peter_para {
+    width: 80%;
+  }
+
+  .explore_bg {
+    height: unset;
+  }
+
+  .happy_customers {
+    height: 540px;
+  }
+
+  .code_para {
+    font-size: 16px;
+
+  }
+
+  .fs_17 {
+    font-size: 14px !important;
+    line-height: 1.8;
+  }
+
+  .ht_bg {
+    height: 540px;
+  }
+
+  .contact_bg {
+    height: unset;
+  }
+
+  .happy {
+    padding-top: 48px;
+  }
+
+  .about_txt {
+    width: 380px;
+  }
+
+  .line_two {
+    font-size: 28px;
+  }
+
+  .peter_name {
+    font-size: 36px;
+  }
+
+  .nav_right {
+    float: right !important;
+  }
+
+  .navbar-expand-md .navbar-collapse {
+    display: inline-block !important;
+  }
+
+  .col_img {
+    width: 150px;
+  }
+
+  .service_bg_color {
+    height: 540px;
+  }
+
+  .service_bg {
+    background-size: cover;
+    height: unset;
+  }
+
+  .para_about {
+    font-size: 18px;
+  }
+
+  .p_top {
+    padding-top: 100px !important;
+  }
+
+  .aim {
+    font-size: 14px !important;
+  }
+
+  .pic2_colmn {
+    padding: 0 15px;
+  }
+
+  .temple_clmn {
+    padding-top: 0;
+  }
+
+  .state_names {
+    padding-top: 150px;
+  }
+
+  .see_btn {
+    padding: 10px 55px;
+  }
+
+  .disc_btn {
+    padding: 10px 25px;
+  }
+
+  .footer_row {
+    width: 70%;
+    padding-top: 80px;
+  }
+
+  .footer_colmn {
+    padding-top: unset;
+    padding-bottom: 35px;
+  }
+
+  /* ul li {
+    padding: 0;
+  } */
+}
+
+@media screen and (min-width: 992px) {
+  .nav_bg {
+    padding: 15px 250px;
+  }
+
+  .fs_17 {
+    font-size: 17px !important;
+    line-height: 1.8;
+  }
+
+  .aim {
+    font-size: 18px !important;
+  }
+
+  .about_txt {
+    width: 480px;
+  }
+
+  .line_two {
+    font-size: 46px;
+  }
+
+  .row_container {
+    width: 70%;
+  }
+
+  .state {
+    font-size: 18px;
+  }
+
+  .peter_name {
+    font-size: 44px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .peter_name {
+    font-size: 52px;
+  }
+
+  .destination_img {
+    width: unset;
+  }
+}
